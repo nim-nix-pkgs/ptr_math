@@ -11,7 +11,6 @@
   inputs.src-ptr_math-main.ref   = "refs/heads/main";
   inputs.src-ptr_math-main.owner = "kaushalmodi";
   inputs.src-ptr_math-main.repo  = "ptr_math";
-  inputs.src-ptr_math-main.dir   = "";
   inputs.src-ptr_math-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
